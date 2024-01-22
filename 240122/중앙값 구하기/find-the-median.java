@@ -15,5 +15,15 @@ public class Main {
                 System.out.println(c);
             }
         }
+        if(a>c){
+            if(b>a){
+                System.out.println(a);
+            }else if(a>b && b>c){
+                System.out.println(b);
+            }
+            else{
+                System.out.println(c);
+            }
+        }
     }
 }
