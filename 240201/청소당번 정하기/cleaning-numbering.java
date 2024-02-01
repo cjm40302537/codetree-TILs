@@ -11,7 +11,7 @@ public class Main {
                 cnt3++;
             }else if(i%3==0){
                 cnt2++;
-            }else if(i%12==0){
+            }else if(i%2==0){
                 cnt1++;
             }
         }
