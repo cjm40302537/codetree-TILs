@@ -7,12 +7,10 @@ public class Main {
         if(c=='A'){
             for(int i=1;i<=n;i++){
                 System.out.print(i+" ");
-            }
-        if(c=='D'){
-            for(int i=n;i>=1;i--){
-                System.out.print(n+" ");
-            }
-        }
+            } }else{
+                for(int i =n;i>=1;n--){
+                    System.out.print(n+" ");
+                }
         }
     }
 }
