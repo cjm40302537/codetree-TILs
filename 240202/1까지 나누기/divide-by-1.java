@@ -9,7 +9,7 @@ public class Main {
             cnt1=n/i;
             n/=i;
 
-            if(cnt1<=0){
+            if(cnt1<=1){
                 System.out.print(i);
                 break;
             }
