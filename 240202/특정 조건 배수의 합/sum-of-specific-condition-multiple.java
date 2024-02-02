@@ -12,7 +12,7 @@ public class Main {
                 }
             }
         }else{
-            for(int i=a;a<=b;a--){
+            for(int i=a;a>=b;a--){
                 if(a%5==0){
                     sum+=a;
                 }
