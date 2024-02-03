@@ -7,11 +7,10 @@ public class Main {
         int c =sc.nextInt();
         boolean d =false;
         for(int i=a; a<=b; a++){
-            if(c%a==0 &&a!=1){
+            if(a%c==0){
                 d = true;
                 break;
             }
-            c+=c;
         }
         if(d==true){
             System.out.println("YES");
