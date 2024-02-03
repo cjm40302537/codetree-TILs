@@ -11,7 +11,7 @@ public class Main {
 
             }
         }
-        if(cnt<=2){
+        if(cnt==2){
             a=true;
         }
         if(a=true){
