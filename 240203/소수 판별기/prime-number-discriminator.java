@@ -5,7 +5,7 @@ public class Main {
         boolean a=false;
         int cnt=0;
         int n =sc.nextInt();
-        for(int i=2;i<=n;i++){
+        for(int i=1;i<=n;i++){
             if(n%i==0){
                 cnt++;
 
